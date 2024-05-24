@@ -2,7 +2,7 @@ body {
   font-family: "Roboto";
   background-color: black;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -18,7 +18,7 @@ body {
   justify-content: center;
   align-items:stretch;
   flex-direction: column;
-  padding: 0 90px;
+  padding: 0 80px;
   padding-bottom: 80px;
   gap:60px
 }
@@ -61,6 +61,7 @@ body {
 
 .hero-text h1 {
   font-size: 48px;
+  font-weight: 1000;
   padding: 0;
   margin: 0;
 }
@@ -71,8 +72,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   max-width: 400px;
-  min-width: 300px;
-  
 }
 
 .hero-text button {
@@ -86,4 +85,40 @@ body {
 .hero img {
   max-width: 400px;
   min-width: 250px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #cacecf;
+  padding: 25px;
+}
+
+.info h2 {
+  font: 36px; 
+  color: #1F2937;
+  font-weight: 1000;
+}
+
+.info-container {
+  display: flex;
+  gap: 50px;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  
+}
+
+.info-content img {
+  border-radius: 10px;
+  border-color: #3882f6;
+  border-width: 3px;
+  border-style: solid;
+  width: 200px;
+  height: 200px;
 }
