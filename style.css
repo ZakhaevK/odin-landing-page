@@ -53,7 +53,7 @@ body {
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items:start;
   gap:30px;
   flex-wrap: wrap;
 }
@@ -120,6 +120,8 @@ body {
   border-color: #3882f6;
   border-width: 3px;
   border-style: solid;
+  /* object-fit: cover crops image to fit */
+  object-fit:cover;
   width: 200px;
   height: 200px;
 }
