@@ -2,7 +2,7 @@ body {
   font-family: "Roboto";
   background-color: black;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -92,6 +92,7 @@ body {
   flex-direction: column;
   background-color: #cacecf;
   padding: 25px;
+  padding-bottom: 85px;
 }
 
 .info h2 {
@@ -124,4 +125,23 @@ body {
   object-fit:cover;
   width: 200px;
   height: 200px;
+}
+
+.quote {
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+  background-color: #babebe;
+  padding: 130px 230px 70px 230px;
+}
+
+.quote em {
+  font-size: 36px;
+}
+
+.quote p {
+  align-self: flex-end;
+  font-size: 28px;
+  font-weight: bold;
 }
